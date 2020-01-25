@@ -1,0 +1,129 @@
+[ 
+  {
+    "op": "add",
+	"path": "/moon/-",
+    "value": [
+	  0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  // T1
+  {
+    "op" : "add",
+	"path" : "/garden/-",
+    "value" : [0.05, "daggerrain"]
+  },
+
+  // T2
+  {
+    "op" : "add",
+	"path" : "/desert/-",
+    "value" : [0.05, "daggerrain"]
+  },
+
+  {
+    "op" : "add",
+	"path" : "/forest/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  // T3
+  {
+    "op" : "add",
+	"path" : "/savannah/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  {
+    "op" : "add",
+	"path" : "/snow/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  // T4
+  {
+    "op" : "add",
+	"path" : "/jungle/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+  
+  {
+    "op" : "add",
+	"path" : "/toxic/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  {
+    "op" : "add",
+	"path" : "/alien/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  // T5
+  {
+    "op" : "add",
+	"path" : "/arctic/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  {
+    "op" : "add",
+	"path" : "/tundra/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  {
+    "op" : "add",
+	"path" : "/asteroids/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  {
+    "op" : "add",
+	"path" : "/asteroidsMeteor/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  },
+
+  // T7
+  {
+    "op" : "add",
+	"path" : "/tentacles/-",
+    "value" : [
+      0.05, 
+	  "daggerrain"
+    ]
+  }
+]
+
+

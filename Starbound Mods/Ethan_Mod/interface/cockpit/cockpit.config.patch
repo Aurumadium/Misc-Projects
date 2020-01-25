@@ -1,0 +1,10 @@
+[
+  {
+    "op" : "add",
+	"path" : "/displayWeathers/daggerrain",
+    "value" : {
+      "displayName" : "Dagger Rain",
+      "icon" : "/interface/cockpit/weather/daggerrain.png"
+    }
+  }
+]

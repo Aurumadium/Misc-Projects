@@ -1,0 +1,81 @@
+{
+  "name" : "daggerrain",
+
+  "particles" : [
+    {
+      "density" : 0.015,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/daggerrain/1.png",
+        "velocity" : [0, -35.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 1.0,
+        "destructionImage" : "/particles/daggerrain/4.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : false,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.015,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/daggerrain/2.png",
+        "velocity" : [0, -25.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/daggerrain/4.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : false,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.015,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/daggerrain/3.png",
+        "velocity" : [0, -20.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/daggerrain/4.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : false,
+        "ignoreWind" : false
+      }
+    }
+  ],
+
+  "projectiles" : [
+    {
+      "projectile" : "dagger",
+      "parameters" : {
+        "power" : 1
+      },
+      "velocity" : [0, -50],
+      "ratePerX" : 0.5,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 15.0,
+  "weatherNoises" : [ "/sfx/weather/dagger.ogg" ]
+}
